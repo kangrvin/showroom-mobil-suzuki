@@ -58,7 +58,20 @@ while ($row = $q->fetch_assoc()) {
     <!-- Gambar dan Slider -->
     <div class="image-section" style="flex: 1 1 100%; position: relative;">
       <div class="main-image" style="position: relative;">
-        <img id="mainDisplay" src="<?= htmlspecialchars($gambarList[0] ?? 'placeholder.jpg') ?>" style="width: 100%; border-radius: 8px; object-fit: cover; max-height: 500px;" />
+        <img 
+  id="mainDisplay"
+  src="<?= htmlspecialchars($gambarList[0] ?? 'placeholder.jpg') ?>"
+  style="
+    max-width: 100%;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    object-fit: contain;
+  "
+/>
         <button onclick="prevImage()" style="position: absolute; top: 50%; left: 10px; transform: translateY(-50%); background: rgba(0,0,0,0.5); border: none; color: white; padding: 10px; border-radius: 50%;">❮</button>
         <button onclick="nextImage()" style="position: absolute; top: 50%; right: 10px; transform: translateY(-50%); background: rgba(0,0,0,0.5); border: none; color: white; padding: 10px; border-radius: 50%;">❯</button>
         <div id="imageCounter" style="position: absolute; bottom: 10px; right: 20px; background: rgba(0,0,0,0.6); color: white; padding: 5px 10px; border-radius: 5px;">
@@ -78,7 +91,7 @@ while ($row = $q->fetch_assoc()) {
       <div class="text-lg text-gray-600">
         <span class="font-semibold">Harga:</span> Rp <?= number_format($data['harga'], 0, ',', '.') ?>
       </div>
-      <div>
+      <!-- <div>
         <?php if (isset($_SESSION['email'])): ?>
          <a href="booking.php?id=<?= htmlspecialchars($data['id_mobil']) ?>" class="inline-block px-5 py-2 bg-red-600 text-white rounded-md font-semibold hover:bg-red-700 transition">Booking</a>
         <?php else: ?>
@@ -86,7 +99,7 @@ while ($row = $q->fetch_assoc()) {
           Login untuk Booking
         </a>
         <?php endif; ?>
-      </div>
+      </div> -->
     </div>
 
     <!-- Tab Navigasi & Konten -->

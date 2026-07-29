@@ -13,7 +13,7 @@ $berita = mysqli_query($conn, "SELECT * FROM berita WHERE status = 'publikasi' O
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
-  <title>Berita Otomotif</title>
+  <title>Suzuki</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="assets/css/berita-otomotif.css" rel="stylesheet" />
   <style>

@@ -5,7 +5,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ShowCar</title>
+    <title>Suzuki</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -212,9 +212,19 @@
       class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3 fixed-top"
     >
       <div class="container">
-        <a class="navbar-brand font-weight-bold text-danger" href="#"
-          >ShowCar</a
-        >
+        <a class="navbar-brand position-relative" href="#">
+  <img
+    src="assets/img/suzuki.png"
+    alt="ShowCar"
+    style="
+      height:130px;
+      width:auto;
+      position:absolute;
+      top:50%;
+      transform:translateY(-50%);
+    "
+  />
+</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -258,13 +268,13 @@
   <section class="hero">
     <div class="blur-overlay"></div>
     <div class="hero-content animate-fadein">
-      <p class="tagline">/ Mobil Dalam Langkah Mudah</p>
+      <p class="tagline">/ Value for Money</p>
       <h1 class="title animate-slidein">
-        Cara Sempurna Untuk Mengeksplor<br />
-        Dan Cek Mobil Di Platform Kami
+        Menjawab kebutuhan<br />
+        mobilitas anda
       </h1>
       <div class="cta-buttons">
-        <button class="btn red" onclick="window.location.href='login.php'">Booking</button>
+        <!-- <button class="btn red" onclick="window.location.href='login.php'">Booking</button> -->
         <button class="btn outline" onclick="window.location.href='#shop'">Lihat Katalog</button>
       </div>
     </div>
@@ -272,56 +282,14 @@
     <!-- akhiran section -->
 
     <!-- brand logo -->
-    <div class="brand-row">
-      <a href="https://www.chevrolet.com" target="_blank">
-        <img
-          src="https://static.vecteezy.com/system/resources/previews/020/498/757/original/chevrolet-brand-logo-car-symbol-with-name-white-design-usa-automobile-illustration-with-black-background-free-vector.jpg"
-          alt="Chevrolet"
-        />
-      </a>
-
-      <a href="https://www.jeep.com" target="_blank">
-        <img
-          src="https://tse4.mm.bing.net/th?id=OIP.jz71Zina4ioOEgRTtmB_YgHaE8&pid=Api&P=0&h=180"
-          alt="Jeep"
-        />
-      </a>
-
-      <a href="https://www.mitsubishi-motors.com" target="_blank">
-        <img
-          src="https://tse3.mm.bing.net/th?id=OIP.jsJs9t1UXntOqAfG06DqsAHaGB&pid=Api&P=0&h=180"
-          alt="Mitsubishi"
-        />
-      </a>
-
-      <a href="https://www.tesla.com" target="_blank">
-        <img
-          src="https://tse3.mm.bing.net/th?id=OIP.11aeOv9S0j4jTrUQRWbj7QHaHa&pid=Api&P=0&h=180"
-          alt="Tesla"
-        />
-      </a>
-
-      <a href="https://www.mercedes-benz.com" target="_blank">
-        <img
-          src="https://static.vecteezy.com/ti/vetor-gratis/p1/20502492-mercedes-benz-marca-logotipo-simbolo-com-nome-branco-projeto-alemao-carro-automovel-ilustracao-com-preto-fundo-gratis-vetor.jpg"
-          alt="Mercedes-Benz"
-        />
-      </a>
-
-      <a href="https://www.rolls-roycemotorcars.com" target="_blank">
-        <img
-          src="https://tse2.mm.bing.net/th?id=OIP.3f5e_4vMl8rbWQ7DiWVkGgHaGB&pid=Api&P=0&h=180"
-          alt="Rolls-Royce"
-        />
-      </a>
-
-      <a href="https://www.hummer.com" target="_blank">
-        <img
-          src="https://tse2.mm.bing.net/th?id=OIP.otaRtMs1k5u17mBQhOnHKgHaGB&pid=Api&P=0&h=180"
-          alt="Hummer"
-        />
-      </a>
-    </div>
+<div class="brand-row">
+  <a href="https://citraasribuana.com/" target="_blank">
+    <img
+      src="assets/img/suzuki-seeklogo.png"
+      alt="Suzuki"
+    />
+  </a>
+</div>
     <!-- akhiran logo -->
      
    <!-- car -->
@@ -616,31 +584,31 @@
 
             <div class="faq-item active">
               <div class="faq-question">
-                <h5>Apa itu ShowCar?</h5>
+                <h5>Apa itu Suzuki?</h5>
                 <span class="icon"></span>
               </div>
               <div class="faq-answer">
-                <p>ShowCar merupakan platform penjualan mobil secara online.</p>
+                <p>ShowCar merupakan platform penjualan mobil.</p>
               </div>
             </div>
 
             <div class="faq-item">
               <div class="faq-question">
-                <h5>Bagaimana saya dapat menghubungi ShowCar?</h5>
+                <h5>Bagaimana saya dapat menghubungi Suzuki?</h5>
                 <span class="icon"></span>
               </div>
               <div class="faq-answer">
-                <p>Anda dapat menghubungi nomor kami 82075289374.</p>
+                <p>Anda dapat menghubungi nomor kami 82120087234.</p>
               </div>
             </div>
 
             <div class="faq-item">
               <div class="faq-question">
-                <h5>Bagaimana saya dapat memesan mobil secara online?</h5>
+                <h5>Bagaimana saya dapat memesan mobil?</h5>
                 <span class="icon"></span>
               </div>
               <div class="faq-answer">
-                <p>Silakan login/register di website, pilih mobil, isi data, dan tunggu tim kami menghubungi Anda.</p>
+                <p>Silakan login/register di website, pilih mobil, dan tunggu tim kami menghubungi Anda.</p>
               </div>
             </div>
 
@@ -656,11 +624,11 @@
 
             <div class="faq-item">
               <div class="faq-question">
-                <h5>Apakah ShowCar menjual mobil baru?</h5>
+                <h5>Apakah Suzuki menjual mobil baru?</h5>
                 <span class="icon"></span>
               </div>
               <div class="faq-answer">
-                <p>Ya, ShowCar hanya menjual mobil baru.</p>
+                <p>Ya, Suzuki hanya menjual mobil baru.</p>
               </div>
             </div>
 
@@ -673,26 +641,42 @@
 
     <!-- Footer Start -->
     <footer>
-      <div class="footer-section">
-        <div class="container footer-flex">
-          <!-- Left: Logo, Description, Social -->
-          <div class="footer-left">
-            <h2 class="footer-logo">ShowCar</h2>
-            <p class="footer-description">Hubungi Juga kami di sosial Media</p>
-            <div class="footer-right">
-              <a href="#"><i class="fab fa-facebook-f"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-              <a href="#"><i class="fab fa-youtube"></i></a>
-            </div>
-          </div>
+  <div class="footer-section">
+    <div class="container footer-flex" style="display:flex; flex-wrap:wrap; gap:30px;">
+      
+      <!-- Left: Logo & Sosial -->
+      <div class="footer-left" style="flex:1; min-width:250px;">
+        <h2 class="footer-logo">Suzuki</h2>
+        <p class="footer-description">Hubungi juga kami di sosial media</p>
+        <div class="footer-right">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
         </div>
       </div>
 
-      <div class="footer-bottom">
-        <p>Di Buat Oleh Kelompok 8</p>
+      <!-- Right: Google Maps -->
+      <div class="footer-map" style="flex:1; min-width:280px;">
+        <h5 style="color:#fff; margin-bottom:10px;">Lokasi Kami</h5>
+        <iframe 
+          src="https://www.google.com/maps?q=Dealer+Suzuki+Jakarta&output=embed"
+          width="100%"
+          height="200"
+          style="border:0; border-radius:10px;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
       </div>
-    </footer>
+
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>Di Buat Oleh Tim Null</p>
+  </div>
+</footer>
     <!-- Footer End -->
 
 

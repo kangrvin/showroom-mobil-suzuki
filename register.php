@@ -53,7 +53,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <title>Daftar SOCA</title>
+  <title>Daftar Suzuki</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <style>
@@ -68,14 +68,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       box-shadow: 0 0 20px rgba(0,0,0,0.1);
     }
     .btn-daftar {
-      background-color: #ff0000;
+      background-color: #003399;
       color: white;
       font-weight: bold;
       font-size: 18px;
       border-radius: 8px;
     }
     .btn-daftar:hover {
-      background-color: #cc0000;
+      background-color: #000B10;
     }
     .form-control:focus {
       border-color: #007bff;
@@ -86,9 +86,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
   <div class="d-flex justify-content-center align-items-center vh-100">
     <div class="register-box text-center">
-      <h3 class="mb-1"><span style="color: red;">So</span><span style="color: black;">Car 🚗</span></h3>
+      <h3 class="mb-1"><span style="color: #003399;">Suzuki</span><span style="color: black;">Car 🚗</span></h3>
       <h4 class="fw-bold mb-2">Daftar Sekarang</h4>
-      <p class="mb-4">Sudah punya Akun SOCA? <a href="login.php" class="text-danger fw-semibold">Masuk</a></p>
+      <p class="mb-4">Sudah punya Akun Suzuki? <a href="login.php" class="text-danger fw-semibold">Masuk</a></p>
 
       <!-- Pesan dari PHP -->
       <?php if ($message): ?>

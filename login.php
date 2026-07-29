@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <title>Login SOCA</title>
+  <title>Login Suzuki</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <style>
@@ -82,7 +82,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     .btn-login {
-      background-color: #ff0000;
+      background-color: #003399;
       color: white;
       font-weight: bold;
       font-size: 18px;
@@ -93,7 +93,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     .btn-login:hover {
-      background-color: #cc0000;
+      background-color: #000B10;
     }
 
     .small-link {
@@ -105,10 +105,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   <div class="d-flex justify-content-center align-items-center vh-100">
     <div class="login-container">
       <div class="logo mb-3">
-        <span style="color:red;font-weight:bold;">So</span><span style="color:black;font-weight:bold;">Car</span> 🚗
+        <span style="color:#003399;font-weight:bold;">Suzuki</span><span style="color:black;font-weight:bold;">Car</span> 🚗
       </div>
-      <h2 class="mb-2">Login ke SOCA</h2>
-      <p class="small-link mb-4">Belum punya Akun SOCA? <a href="register.php" class="text-danger">Daftar</a></p>
+      <h2 class="mb-2">Login ke Suzuki</h2>
+      <p class="small-link mb-4">Belum punya Akun Suzuki? <a href="register.php" class="text-danger">Daftar</a></p>
 
       <?php if (!empty($message)): ?>
         <div class="alert alert-danger"><?= $message ?></div>
